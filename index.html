@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="stylee.css">
+    <title>Tourism Company</title>
+    <style>
+        /* CSS to move the sin-ign section to the right with spacing */
+        .sin-ign{
+            float: right;
+            margin-left: 30px; /* Space from the right side */
+            margin-top: 20px;
+            width: 400px;
+            height: 300px;
+            background: url(book-img.jpg) repeat;
+            background-position: left;  /* Making it wider */
+        }
+
+        /* Styling for the button */
+        .sin-ign button {
+            background-color: yellow;
+            border: none;
+            color: black;
+            width: 100%; /* Making the button full width */
+        }
+
+        /* Ensure the form fields are full width */
+        .sin-ign .form-control {
+            width: 100%;
+        }
+
+        /* Make sure that the text inside cards is aligned properly */
+        .card-body {
+            text-align: center;
+        }
+        .sin-ign img{
+          margin-left:-700px;
+          margin-bottom:-100px;
+          margin-top: -400px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="sgin-in.html">Sgin-in</a></li>
+        </ul>
+    </header>
+
+    <section class="kr">
+        <div class="carousel-inner">
+            <h1>Your Adventure <span>Awaits</span></h1>
+        </div>
+    </section>
+
+    <section class="new-section">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h2>Why Choose Us?</h2>
+                    <p>We are committed to providing the best travel experiences...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking">
+        <h1>OUR Special Offers</h1>
+        <div class="card-deck">
+            <!-- First Card -->
+            <div class="card">
+                <img src="mr/mina-fc-XKGjFdt3abA-unsplash.jpg" class="card-img-top" width="100%">
+                <div class="card-body">
+                    <h5 class="card-title">Bogor Pyramid: A Mysterious Structure in Indonesia</h5>
+                    <p>The Bogor Pyramid is an intriguing historical monument located in the city of Bogor, Indonesia...</p>
+                    <div class="price">$444 For 1</div>
+                    <button type="button" class="btn btn-primary">Book now</button>
+                </div>
+            </div>
+            <!-- Second Card -->
+            <div class="card">
+                <img src="mr/albina-ranniaia-OzbqByr7kQg-unsplash.jpg" class="card-img-top" width="100%">
+                <div class="card-body">
+                    <h5 class="card-title">Pyramid of Caius Cestius: Rome's Hidden Gem</h5>
+                    <p class="card-text">Nestled in the vibrant city of Rome, the Pyramid of Caius Cestius stands as a testament to the city's rich history...</p>
+                    <div class="price">$444 For 1</div>
+                    <button type="button" class="btn btn-primary">Book now</button>
+                </div>
+            </div>
+            <!-- Third Card -->
+            <div class="card">
+                <img src="mr/alex-block-kx18MOmxbuQ-unsplash.jpg" class="card-img-top" width="100%">
+                <div class="card-body">
+                    <h5 class="card-title">Giza Pyramids: Wonders of Egypt</h5>
+                    <p>The Giza Pyramids, one of the Seven Wonders of the Ancient World...</p>
+                    <div class="price">$444 For 1</div>
+                    <button type="button" class="btn btn-primary">Book now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Testimonials Section -->
+    <section class="testimonials">
+        <h1>Customer Testimonials</h1>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="card-body">
+                <blockquote class="blockquote">
+                    <p>"The best travel experience I've ever had!"</p>
+                    <footer class="blockquote-footer">John Doe</footer>
+                </blockquote>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="card-body">
+                <blockquote class="blockquote">
+                    <p>"Unforgettable memories and fantastic service."</p>
+                    <footer class="blockquote-footer">Jane Smith</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Updated Country Section -->
+    <section class="country">
+        <h1>Explore Our Destinations</h1>
+        <div class="d-flex justify-content-start">
+            <div class="card" style="width: 18rem;">
+                <img src="p-4.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Paris</h5>
+                    <p class="card-text">Experience the romance and charm of the French capital...</p>
+                    <div class="price">$800 For 1</div>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="g-5.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Italy</h5>
+                    <p class="card-text">Discover the art, history, and cuisine of Italy...</p>
+                    <div class="price">$650 For 1</div>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+            <!-- Egypt Card: with ml-auto to move it to the right -->
+            <div class="card ml-auto" style="width: 18rem;">
+                <img src="omar-elsharawy-pwMbtwA9LRc-unsplash.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Egypt</h5>
+                    <p class="card-text">Walk in the footsteps of the pharaohs and explore ancient wonders...</p>
+                    <div class="price">$400 For 1</div>
+                    <a href="#" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="haidan-IOBIgKmjm1Y-unsplash.jpg" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Mecca</h5>
+                <p class="card-text">A sacred journey to the heart of Islam...</p>
+                <div class="price">$600 For 1</div>
+                <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+        </section>
+             
+   <!-- قسم التواصل -->
+<!-- Contact Section -->
+
+<img src="book-img.svg" width="40%" class="gh">
+    <!-- قسم الرسالة والأرقام -->
+<section class="contact">
+    <h1>Contact Us</h1>
+    <form>
+        <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" class="form-control" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+
+   
+<section class="mr">
+<div class="contact-info">
+    <h2>Our Contact Information</h2>
+    <p><strong>Phone:</strong> +1 (234) 567-890</p>
+    <p><strong>Email:</strong> info@tourismcompany.com</p>
+    <p><strong>Address:</strong> 123 Tourism St, City, Country</p>
+</div>
+</section>
+</section>
+<!-- Footer section with black background -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <p> Catouphared py Marwan &copy; 2024</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
